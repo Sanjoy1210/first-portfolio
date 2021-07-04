@@ -1,0 +1,35 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    margin: 0;
+}
+h1 {
+    font-size: 50px;
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 250px;
+}
+
+.half-width {
+    width: 50%;
+    padding: 2%;
+}
+
+.half-width img {
+    width: 70%;
+}
+
+.top-banner {
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(aqua, purple);
+    padding: 10px 40px;
+    color: #fff;
+}
